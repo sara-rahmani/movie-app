@@ -1,0 +1,80 @@
+.main-nav {
+  margin-bottom: 20px;
+}
+
+.main-nav ul {
+  border-radius: 1em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.main-nav  li {
+  float: right;
+}
+
+.main-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.main-nav .logo{
+  width: 5em;
+
+}
+.main-nav li:first-child a{
+  margin-top: -14px;
+  margin-bottom: -30px;
+}
+.main-nav li:first-child {
+float:left;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.main-nav li a:hover {
+  background-color: gray;
+}
+/* 
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+  display: flex;
+}
+
+.main-nav li {
+  flex: 1;
+}
+
+.main-nav a {
+  color: #fcfcfc;
+  text-decoration: none;
+  display: block;
+  line-height: 50px;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+}
+
+.main-nav a.active {
+  background-color: rgba(37, 21, 155, 0.8);
+}
+
+.main-nav li:not(:first-child) a {
+  border-left: 3px solid #e1e1e1;
+}
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a:active {
+  background-color: rgba(white, 0.2);
+} */
