@@ -6,6 +6,10 @@ html {
   *:after {
     box-sizing: inherit;
   }
+  button.active {
+    background: rgb(65, 98, 168);
+    color: white;
+  }
   
   body {
     margin: 0;
@@ -64,6 +68,7 @@ html {
   header{
     text-align: center;
   }
+
 .movies {
     position: relative;
 
