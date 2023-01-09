@@ -13,7 +13,6 @@ function Home() {
     const favs = useSelector((state) => state.favs.items);
     const toWatchs = useSelector((state) => state.laters.items);
 
-   //const [url,setUrl]=useState("https://api.themoviedb.org/3/movie/popular?api_key=7670191addb965f127d1f008467d109e&language=en-US&page=1");
 const [movies, setMovies] = useState([]);
 const [activeList,setActiveList]=useState('popular');
 const url =
@@ -31,18 +30,6 @@ const url =
         fetchPopular();
       }, [fetchPopular]);
 
-
-
-// const fetchPopular = async () => {
-//   console.log(url);
-//     const data = await fetch(url);
-//     const movies = await data.json();
-//     console.log(movies);
-//     setMovies(movies.results.slice(0, 12));
-//   };
-//   useEffect(() => {
-//     fetchPopular();
-//   }, [activeList,fetchPopular]);
 
   return (
     <main>

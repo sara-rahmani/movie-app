@@ -20,6 +20,18 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sara-rahmani/movie-app.git"
+  },
+  "author": {
+    "name": "sara-rahmani",
+    "url": "https://github.com/sara-rahmani"
+  },
+  "contributor": {
+    "name": "kritib2502",
+    "url": "https://github.com/kritib2502"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -11,7 +11,7 @@ import { addToWatch, deleteToWatch } from "../features/laters/latersSlice";
 
 const Movie = ({ movie, profileLink, isFav,toWatch }) => {
     const dispatch = useDispatch();
-    //const percentage = (movie.vote_count  * 100).toFixed(2) + "%";  
+    const rating = ((movie.vote_average)  * 10).toFixed(2);
       function handleFavClick(addToFav, obj) {
       if (addToFav === true) {
         console.log(obj);
@@ -40,9 +40,9 @@ const Movie = ({ movie, profileLink, isFav,toWatch }) => {
      <div className="title-and-name">
 
       <h5>{movie.title}</h5>
-      <p><b>Rate: </b>{movie.vote_count}</p>
-
-        <p><b>Date: </b>{movie.release_date}</p>
+      <p><b>Rating: </b> {rating}%</p>
+     
+        <p><b>Date Released: </b>{movie.release_date}</p>
     
         <p> <b>Description: </b>
               {movie.overview}</p>
@@ -55,7 +55,7 @@ const Movie = ({ movie, profileLink, isFav,toWatch }) => {
               state: { movie },
             }}
           >
-             More infos &#8250;&#8250;
+             More info &#8250;&#8250;
           </Link></div>
       )}
       

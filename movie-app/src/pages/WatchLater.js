@@ -19,11 +19,11 @@ function WatchLater() {
     return (
       <main className="laters">
         <section>
-          <h2>Watch later Movies</h2>
+          <h2>Movies to Watch Later</h2>
           {watchLater.length < 1 ? (
             <p>
-              No watch Later Movie. Return to the <Link to="/">home</Link> page
-              to add some watch Later Movies.
+              No movies selected to watch later. Return to the <Link to="/">home</Link> page
+              to add some movies you might want to watch later.
             </p>
           ) : (
             <div className="movies">

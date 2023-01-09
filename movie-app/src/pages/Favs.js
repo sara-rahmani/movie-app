@@ -17,11 +17,11 @@ function Favs() {
   return (
     <main className="favs">
     <section>
-        <h2>Favourite Movies</h2>
+        <h2>Your Favourite Movies</h2>
         {favs.length < 1 ? (
           <p>
-            No favourite Movie. Return to the <Link to="/">home</Link> page
-            to add some favourite Movies.
+            No favourites selected. Return to the <Link to="/">home</Link> page
+            to add some of your favourite Movies.
           </p>
         ) : (
           <div className="movies">

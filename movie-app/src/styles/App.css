@@ -18,6 +18,7 @@ html {
   img {
     max-width: 100%;
     height: auto;
+    border-radius: .35rem;
   }
   
   table {
@@ -31,7 +32,7 @@ html {
     color: #1c1c1c;
     background-color: #333;
   }
-  
+
   h1,
   h2,
   h3,
@@ -55,8 +56,7 @@ html {
     padding: 1em, 1.2em;
       }
   
-  .wrapper {
-  
+  .wrapper { 
     background-color: #fcfcfc;
     margin-left: auto;
     margin-right: auto;
@@ -71,17 +71,13 @@ html {
 
 .movies {
     position: relative;
-
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-column-gap: 3rem;
     grid-row-gap: 2rem;
-
   }
   
   .movies .movie {
-  
-
     position: relative;
     display: grid;
     grid-template-columns: 8.75em 1fr;
@@ -89,10 +85,8 @@ html {
     border: 0.0625em dotted #ccc;
     background-color:white;
     box-shadow: 0.125em 0.1875em 0.3125em 0.125em black;
-    border-radius: 0.625em;
     margin-left: 20px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
   }
 
     .link-profile {
@@ -120,10 +114,11 @@ html {
   .movies .profile-picture img {
 
     max-width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    box-shadow: 0.125em 0.1875em 0.3125em 0.125em rgb(88, 85, 85);
   } 
   .movies .title-and-name {
     margin-left: 160px;
@@ -240,7 +235,6 @@ text-align: center;
     font-size: 20px;
     font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 30px;
-    border-radius: 1em ; 
     border: #ccc double 2px;
     padding: 1.2em;
     margin: 1em auto;
