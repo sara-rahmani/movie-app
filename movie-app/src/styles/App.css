@@ -245,12 +245,7 @@ text-align: center;
 text-align: center;
   }
  
-  .tmdb-logo {
-    width: 50%;
-    height: 180px;
-    background-repeat: no-repeat;
-    background-image:url(/public/assets/images/tmdb.png);
-    margin-left: 30%;}
+
 
     .logo-img{
       max-width: 20%;
