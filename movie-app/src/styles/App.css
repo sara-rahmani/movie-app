@@ -253,9 +253,7 @@ text-align: center;
     margin-left: 30%;}
 
     .logo-img{
-      max-width: 20%;
-      display: flex;
-      justify-content: center;
+      max-width: 135px;
     }
 footer {  position: fixed;
     left: 0;
