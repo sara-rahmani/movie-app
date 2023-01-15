@@ -14,7 +14,9 @@ function About() {
      add it to the Favourite List, and save it for the Watch Later list!</p>
 
   <p>&#9758; This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
-  <div class="tmdb-logo"></div>
+  {/* <div class="tmdb-logo"></div> */}
+  <img src={`tmdb-logo.png`} class="logo-img" alt="logo"/>
+
 </div>          
     </main>
   );

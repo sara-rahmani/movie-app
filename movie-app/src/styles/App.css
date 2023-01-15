@@ -252,6 +252,11 @@ text-align: center;
     background-image:url(/public/assets/images/tmdb.png);
     margin-left: 30%;}
 
+    .logo-img{
+      max-width: 20%;
+      display: flex;
+      justify-content: center;
+    }
 footer {  position: fixed;
     left: 0;
     bottom: 0;
